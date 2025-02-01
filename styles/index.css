@@ -1,0 +1,56 @@
+/* Enforces short hex, no vendor prefixes, and proper indentation */
+body {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     background-color: #f5f5f5;
+ }
+ 
+ /* Proper nesting, limited IDs, and specificity control */
+ header {
+     background-color: #007bff;
+     padding: 10px 0;
+     text-align: center;
+ }
+ 
+ h1 {
+     color: #fff;
+     font-size: 24px;
+ }
+ 
+ nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     text-align: center;
+ }
+ 
+ nav ul li {
+     display: inline-block;
+     margin: 0 15px;
+ }
+ 
+ nav ul li a {
+     color: #fff;
+     text-decoration: none;
+     font-weight: bold;
+ }
+ 
+ /* Limits nesting and ensures no redundant shorthand values */
+ .content {
+     max-width: 800px;
+     margin: 20px auto;
+     padding: 20px;
+     background-color: #fff;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* Ensures no vendor prefixes, proper shorthand usage */
+ footer {
+     text-align: center;
+     padding: 15px;
+     background-color: #222;
+     color: #fff;
+ }
+ 

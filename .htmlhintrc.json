@@ -1,0 +1,12 @@
+{
+    "doctype-first":true,
+    "empty-tag-not-self-closed":true,
+    "head-script-disabled":true,
+    "href-abs-or-rel":true,
+    "id-class-ad-disabled":true,
+    "id-class-value":true,
+    "id-unique":true,
+    "inline-script-disabled":true,
+    "inline-style-disabled":true,
+    "space-tab-mixed-disabled":true
+}
