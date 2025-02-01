@@ -1,0 +1,15 @@
+{
+    "rules": {
+        "declaration-block-no-duplicate-custom-properties": true,
+        "declaration-block-no-duplicate-properties": true,
+        "block-no-empty": true,
+        "color-hex-length": "short",
+        "color-named": "never",
+        
+        "number-leading-zero": "always",
+        "selector-no-qualifying-type": true,
+        "no-duplicate-selectors": true,
+        "unit-no-unknown": true,
+        "value-no-vendor-prefix": true
+    }
+}
